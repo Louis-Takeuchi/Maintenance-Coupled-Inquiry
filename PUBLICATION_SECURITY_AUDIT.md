@@ -15,9 +15,9 @@ by `.gitignore` and were not treated as Git publication candidates.
 
 | Check | Result |
 |---|---|
-| `/Users/` absolute paths | 0 hits |
+| Concrete Mac user paths with the `/Users/` prefix | 0 hits (the literal prefix appears only in this audit description) |
 | High-confidence API key/token/private-key/password patterns | 0 hits |
-| Email-address patterns | 0 hits |
+| Email-address patterns | 0 private addresses; 1 public GitHub noreply address in this audit |
 | `sandbox:/mnt/data` and ChatGPT internal `file-...` IDs | 0 hits |
 | `.env` files | 0 |
 | `.DS_Store` files | 0 |
