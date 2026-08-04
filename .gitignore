@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+render_*/
+review_*/
+build/
+dist/
+*.egg-info/
+release-assets/
+
+# Local research workspace sources. The curated public tree is tracked instead.
+/Constitutive Inquiry MVP/
+/Constitutive Inquiry MVP docs/
+/PaperB_all_current_artifacts_2026-08-04_v0_5/
+/公開用再現パッケージ_v1_0_2026-08-05/
+/自律AI - 論文B解説8-4.pdf
+
