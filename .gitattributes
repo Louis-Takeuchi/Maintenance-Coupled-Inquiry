@@ -1,0 +1,21 @@
+* text=auto eol=lf
+*.docx binary
+*.pdf binary
+*.png binary
+*.zip binary
+
+# Preserve byte identity of files copied from the frozen release package.
+manuscript/** -text
+supplement/** -text
+figures/** -text
+protocol/** -text
+src/** -text
+tests/** -text
+manifests/** -text
+data/** -text
+legacy/** -text
+scripts/archived_postrun/** -text
+docs/development/** -text
+docs/reference_audit/** -text
+docs/KNOWN_LIMITATIONS.md -text
+docs/PUBLICATION_SCOPE_DECISION.md -text

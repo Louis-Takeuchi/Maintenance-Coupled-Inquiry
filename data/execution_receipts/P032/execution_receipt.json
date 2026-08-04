@@ -1,0 +1,8 @@
+{
+  "activation_manifest_sha256": "3cc3553400e935d3cce66a2dcb34b90697b19f86109cf74eeed87e0e3fb8ad24",
+  "chunk_id": "P032",
+  "freeze_candidate_manifest_sha256": "4cdc7c3f5e209eb193a83a3bae759df0f98a18571bd833ac1d5edaf6a1c7ae3f",
+  "output": "/mnt/data/paperB-unified-v1/results/confirmation/v0_3/P032",
+  "protocol_version": "v0.3",
+  "source_rows": 12
+}

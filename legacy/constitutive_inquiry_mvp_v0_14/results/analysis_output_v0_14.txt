@@ -1,0 +1,10 @@
+Confirmation runs: 800
+Main restoration: 1.000
+Full reset restoration: 0.975
+Sparse reset restoration: 1.000
+Main mean sequences: 45.125
+Full reset mean sequences: 57.275
+Sparse reset mean sequences: 45.125
+Main neutral false repair: 0.000
+Main memory changed action: 0.000
+Adversarial memory changed action: 0.000

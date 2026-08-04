@@ -1,0 +1,9 @@
+world,contrast,metric,role,n_pairs,mean_difference,ci_lower,ci_upper,sesoi,bootstrap_seed,bootstrap_replicates
+self_relevant,actual_need-yoked_need,mean_need_target_mass_share,manipulation_check,72,0.08759543377231035,0.060905287266863097,0.11476628452281099,0.0,941731,50000
+self_relevant,actual_need-yoked_need,causal_target_sensing_share,primary_mechanism,72,0.11732711732711731,0.07216334013209014,0.163243006993007,0.08,941731,50000
+self_relevant,actual_need-yoked_need,causal_target_sensing_selectivity,key_secondary,72,0.10198499417249417,0.04910010562354312,0.15561920284576547,0.08,941731,50000
+self_relevant,actual_need-yoked_need,replicated_restoration,confirmatory_secondary,72,0.2916666666666667,0.16666666666666666,0.4166666666666667,0.1,941731,50000
+self_relevant,actual_need-yoked_need,diagnosis_observations,secondary_latency,72,-8.208333333333334,-22.555902777777774,5.680555555555555,,941731,50000
+self_relevant,actual_need-yoked_need,bridge_decision_correct,secondary_accuracy,72,0.3194444444444444,0.19444444444444445,0.4444444444444444,,941731,50000
+self_relevant,actual_need-yoked_need,common_decoder_bridge_correct,mediation_diagnostic,72,0.3194444444444444,0.19444444444444445,0.4444444444444444,,941731,50000
+self_relevant,actual_need-yoked_need,common_decoder_replicated_restoration,mediation_diagnostic,72,0.2777777777777778,0.1527777777777778,0.4027777777777778,,941731,50000

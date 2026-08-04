@@ -1,0 +1,7 @@
+claim_id,role,world,contrast,endpoint,sesoi,interval_rule,supported,not_supported,indeterminate
+MC-MANIP,manipulation_check,self_relevant,actual_need-yoked_need,mean_need_target_mass_share,0,stratified paired bootstrap 95% lower > 0,mean>0 and lower>0 plus total-need preservation and derangement audit,mean<=0 or upper<=0 or yoke audit fails,positive direction but interval crosses 0
+MC-PRIMARY,primary_mechanism,self_relevant,actual_need-yoked_need,causal_target_sensing_share,0.08 absolute share,stratified paired bootstrap 95%,mean>=0.08 and lower>0 and manipulation+safety+replay pass,mean<=0 or upper<=0 or manipulation fails or safety lower>0.05 or replay<1,positive but mean<0.08 or lower<=0 or safety interval crosses margin
+MC-SAFETY,mandatory_safety_gate,neutral,actual_need absolute rate,false_repair,upper rate margin 0.05,one-sided 95% Clopper-Pearson,upper<=0.05,lower>0.05,lower<=0.05<upper
+MC-NULL,supporting_safety,neutral,actual_need absolute rate,explicit_no_bridge,lower rate 0.90,one-sided 95% Clopper-Pearson,lower>=0.90,upper<0.90,interval crosses 0.90
+DS-RESTORE,confirmatory_secondary,self_relevant,actual_need-yoked_need,replicated_restoration,0.10 absolute probability,stratified paired bootstrap 95%,mean>=0.10 and lower>0 and safety supported,mean<=0 or upper<=0 or safety not_supported,otherwise
+KS-SELECT,key_secondary,self_relevant,actual_need-yoked_need,causal_target_sensing_selectivity,0.08 absolute selectivity,stratified paired bootstrap 95%,descriptive secondary only,descriptive secondary only,descriptive secondary only

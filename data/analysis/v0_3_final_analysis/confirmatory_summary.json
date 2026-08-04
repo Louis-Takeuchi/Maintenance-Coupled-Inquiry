@@ -1,0 +1,22 @@
+{
+  "ablation_run_summary_sha256": "29674fefec3773e292c76d7f0614606e1a034b487ac500cb6a308fe3642923c0",
+  "ablation_source_rows": 432,
+  "activation_manifest_sha256": "3cc3553400e935d3cce66a2dcb34b90697b19f86109cf74eeed87e0e3fb8ad24",
+  "downstream_replicated_restoration_verdict": "supported",
+  "exact_replay_rate": 1.0,
+  "false_repair_one_sided_95_upper": 0.04075368623063991,
+  "freeze_candidate_manifest_sha256": "4cdc7c3f5e209eb193a83a3bae759df0f98a18571bd833ac1d5edaf6a1c7ae3f",
+  "frozen_files_unchanged": true,
+  "main_mechanism_verdict": "supported",
+  "neutral_explicit_no_bridge": 71,
+  "neutral_false_repairs": 0,
+  "neutral_n": 72,
+  "no_bridge_one_sided_95_lower": 0.9358014572947564,
+  "postrun_analysis_note": "Frozen CLI analysis_scope label was stale; calculations and verdict formulas were reproduced unchanged in confirmatory_verdict.csv.",
+  "primary_run_summary_sha256": "ee5b59736d9b459fa2fc95daab0de4cb84b791fa4cb0ff742d710df6b87f28af",
+  "primary_source_rows": 576,
+  "protocol_version": "v0.3",
+  "replay_common_decoder_rows": 288,
+  "status": "CONFIRMATORY_EXECUTION_COMPLETE",
+  "total_source_rows": 1008
+}

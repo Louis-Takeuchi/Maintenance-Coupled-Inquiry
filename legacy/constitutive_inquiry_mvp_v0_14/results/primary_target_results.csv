@@ -1,0 +1,12 @@
+target,value,ci_low,ci_high,criterion,met
+restoration_noninferior_to_full_reset,0.025,0.0,0.075,difference >= -0.05,1
+restoration_noninferior_to_sparse_reset,0.0,0.0,0.0,difference >= -0.05,1
+neutral_false_repair,0.0,0.0,0.08762160119728664,< 0.05,1
+sequence_reduction_vs_full_reset,0.2121344391095591,0.1766341460745475,0.24293351311817787,>= 0.15,1
+sequence_reduction_vs_sparse_reset,0.0,0.0,0.0,>= 0.05,0
+memory_proposal_execution_rate,0.0,0.0,0.08762160119728664,>= 0.20,0
+memory_not_merely_ignored,0.0,,,sequence reduction vs sparse >=0.05 and execution >=0.20,0
+adversarial_wrong_memory_detected_before_repair,,,,>= 0.80; not evaluable when memory never changes action,0
+adversarial_final_minus_first_quarter_restoration,0.0,,,>= 0.20,0
+five_seven_operation_stability,0.0,,,<= 0.10,1
+nonstationary_minus_stationary_restoration,0.0,,,>= -0.10,1

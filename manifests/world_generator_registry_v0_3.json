@@ -1,0 +1,28 @@
+{
+  "version": "v0.3-freeze-candidate",
+  "included_relevance": [
+    "self_relevant",
+    "neutral"
+  ],
+  "deferred_relevance": [
+    "partial_bridge"
+  ],
+  "stratum_fields": [
+    "core_size",
+    "topology",
+    "grammar_family",
+    "primitive_cardinality",
+    "nonstationary"
+  ],
+  "observation_budget": 600,
+  "shift_observation": 28,
+  "active_sensing_width": 2,
+  "memory_capacity_reference": 320,
+  "primary_memory": "off",
+  "confirmatory_seed_range": [
+    30000,
+    30071
+  ],
+  "n_confirmatory": 72,
+  "note": "confirmatory seed configurations were used only to generate the deterministic stratum-matched donor map; no outcome episode was executed."
+}

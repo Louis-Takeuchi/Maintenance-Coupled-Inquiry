@@ -1,0 +1,32 @@
+Constitutive Inquiry MVP v0.14 freeze audit
+
+training_seed_range=0-31
+training_worlds=32
+training_recoveries=25
+confirmation_seed_range=18000-18039
+confirmation_runs=800
+confirmation_modes=10
+confirmation_relevance_classes=2
+confirmation_duplicates=0
+automated_tests=20
+execution_manifest_match=true
+frozen_execution_manifest_sha256=6a934aa20714ae9a2dc5c536125f0bfd440a8e5cb1d9e7ff5e48d320d8c913f2
+evaluated_execution_manifest_sha256=6a934aa20714ae9a2dc5c536125f0bfd440a8e5cb1d9e7ff5e48d320d8c913f2
+frozen_memory_sha256=c3a7b547fe847df0bf3d633228c82ea2e6a1a6b8d36a04bdb6d4ccc5525a2012
+current_memory_sha256=c3a7b547fe847df0bf3d633228c82ea2e6a1a6b8d36a04bdb6d4ccc5525a2012
+
+Execution files and frozen training memory were unchanged between the final freeze and completion of the 18000-18039 confirmation cohort.
+
+Analysis-only changes after confirmation:
+- analyze_v0_14.py was restricted to the final seed range, corrected for pandas mode-column access, and changed to the pre-registered Wilson proportion interval;
+- run_reproduction_audit_v0_14.py was reduced to a representative audit because the full planned audit exceeded the execution environment limits.
+Neither utility is included in the execution-only manifest.
+
+reproduction_seed_range=18100-18100
+reproduction_modes=4
+reproduction_rows_per_run=8
+reproduction_normalized_rows_equal=true
+reproduction_csv_bytes_equal=true
+reproduction_sha256=455ff0ca29645087114d37d32b1196802c63e0a308c3cf65129c8bdfc56c7520
+reproduction_scope=representative_not_full_plan
+status=PASS

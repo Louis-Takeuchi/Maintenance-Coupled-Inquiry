@@ -1,0 +1,8 @@
+{
+  "source_rows": 576,
+  "unique_keys": 576,
+  "replay_rows": 288,
+  "replay_exact": 288,
+  "missing_common_decoder": 0,
+  "run_summary_sha256": "ee5b59736d9b459fa2fc95daab0de4cb84b791fa4cb0ff742d710df6b87f28af"
+}

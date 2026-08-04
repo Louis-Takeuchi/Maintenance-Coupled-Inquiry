@@ -1,0 +1,9 @@
+{
+  "checks": 16,
+  "confirmatory_outcome_episodes_executed": 0,
+  "failed": 0,
+  "failure_ids": [],
+  "passed": 16,
+  "phase": "U1.5",
+  "status": "PASS_LOCKED_NOT_ACTIVATED"
+}

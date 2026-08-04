@@ -1,0 +1,5 @@
+grammar_family,runs,restoration_rate,mean_sequences
+delayed,8,1.0,56.75
+fork,8,0.375,69.625
+inhibitor_first,8,0.75,60.5
+repeat,8,1.0,56.25

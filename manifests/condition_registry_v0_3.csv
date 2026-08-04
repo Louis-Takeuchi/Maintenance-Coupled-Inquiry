@@ -1,0 +1,11 @@
+condition_id,need_policy,self_model_policy,sensing_policy,memory_policy,allow_null,bridge_validation,passive_only,pair_limited,common_repair_decoder,primary,description
+actual_need,actual,causal,need_guided,off,True,True,False,False,True,True,Aligned internal need. Total need may affect self/neutral allocation; component-specific need prioritizes scarce active sensing. Within-domain experiment search and repair decoding are otherwise common.
+yoked_need,yoked,causal,need_guided,off,True,True,False,False,True,True,"A matched donor need trace is cyclically deranged across internal components. Per-step total need and donor component time series are retained, while component-to-focal-self alignment is broken."
+curiosity,curiosity,causal,epistemic,off,True,True,False,False,True,True,No internal need. Domain allocation follows need-blind epistemic uncertainty and active sensing uses the common epistemic selector.
+no_need,none,causal,epistemic,off,True,True,False,False,True,True,No internal need. Post-shift self/neutral allocation is fixed at 50/50 and active sensing uses the same need-blind epistemic selector as curiosity.
+correlation_self_model,actual,correlation,need_guided,off,True,True,False,False,True,False,Replace intervention-based self-boundary learning with correlation-based inference.
+no_null,actual,causal,need_guided,off,False,True,False,False,True,False,Remove scoped no_bridge as an admissible diagnosis.
+no_bridge_validation,actual,causal,need_guided,off,True,False,False,False,True,False,Allow a positive bridge diagnosis to proceed directly to repair.
+no_null_no_validation,actual,causal,need_guided,off,False,False,False,False,True,False,Diagnostic interaction: remove both scoped no_bridge and independent bridge validation.
+passive_only,actual,causal,need_guided,off,True,True,True,False,True,False,Remove active intervention search; observational bridge inference only.
+pair_limited,actual,causal,need_guided,off,True,True,False,True,True,False,Limit generated intervention programs to length two.

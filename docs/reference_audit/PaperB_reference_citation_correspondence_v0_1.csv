@@ -1,0 +1,13 @@
+reference_key,audit_status,in_text_citation_string,in_text_occurrences,reference_entry_present,expected_in_manuscript,correspondence_result
+Barandiaran et al. (2009),Retained,"Barandiaran et al., 2009",2,YES,YES,PASS
+Barto et al. (2013),Retained,"Barto et al., 2013",2,YES,YES,PASS
+Di Paolo (2005),Retained,"Di Paolo, 2005",2,YES,YES,PASS
+Friston (2010),Retained,"Friston, 2010",1,YES,YES,PASS
+Froese et al. (2007),Retained,"Froese et al., 2007",1,YES,YES,PASS
+Keramati & Gutkin (2014),Retained,"Keramati & Gutkin, 2014",2,YES,YES,PASS
+Maturana & Varela (1980),Retained,"Maturana & Varela, 1980",2,YES,YES,PASS
+Moreno & Mossio (2015),Retained,"Moreno & Mossio, 2015",2,YES,YES,PASS
+O'Regan & Noë (2001),Retained,"O'Regan & Noë, 2001",1,YES,YES,PASS
+Oudeyer et al. (2007),Retained,"Oudeyer et al., 2007",2,YES,YES,PASS
+Pearl (2009),Retained,"Pearl, 2009",1,YES,YES,PASS
+Harnad (1990),Removed—no substantive citation,"Harnad, 1990",0,NO,NO,PASS

@@ -1,0 +1,12 @@
+Constitutive Inquiry MVP v0.14 reproduction audit
+seed_range=18100-18100
+modes=4
+relevance_classes=2
+expected_rows_per_run=8
+rows_a=8
+rows_b=8
+normalized_rows_equal=True
+csv_bytes_equal=True
+sha256_a=455ff0ca29645087114d37d32b1196802c63e0a308c3cf65129c8bdfc56c7520
+sha256_b=455ff0ca29645087114d37d32b1196802c63e0a308c3cf65129c8bdfc56c7520
+status=PASS

@@ -1,0 +1,8 @@
+{
+  "primary_source_rows": 576,
+  "primary_replay_rows": 288,
+  "primary_chunks": 48,
+  "ablation_source_rows": 432,
+  "ablation_chunks": 72,
+  "confirmatory_focal_n": 72
+}

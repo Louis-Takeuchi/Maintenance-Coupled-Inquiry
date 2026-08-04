@@ -1,0 +1,5 @@
+condition_id,need_policy,self_model_policy,sensing_policy,memory_policy,allow_null,bridge_validation,passive_only,pair_limited,common_repair_decoder,primary,description
+actual_need,actual,causal,need_guided,off,True,True,False,False,True,True,Aligned internal need. Total need may affect self/neutral allocation; component-specific need prioritizes scarce active sensing. Within-domain experiment search and repair decoding are otherwise common.
+curiosity,curiosity,causal,epistemic,off,True,True,False,False,True,True,No internal need. Domain allocation follows need-blind epistemic uncertainty and active sensing uses the common epistemic selector.
+no_need,none,causal,epistemic,off,True,True,False,False,True,True,No internal need. Post-shift self/neutral allocation is fixed at 50/50 and active sensing uses the same need-blind epistemic selector as curiosity.
+yoked_need,yoked,causal,need_guided,off,True,True,False,False,True,True,"A matched donor need trace is cyclically deranged across internal components. Per-step total need and donor component time series are retained, while component-to-focal-self alignment is broken."

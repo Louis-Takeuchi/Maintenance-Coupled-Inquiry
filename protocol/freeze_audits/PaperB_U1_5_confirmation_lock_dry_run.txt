@@ -1,0 +1,2 @@
+exit_code=1
+confirmation is locked: no activation manifest exists; Phase U1.5 preparation does not authorize outcome execution

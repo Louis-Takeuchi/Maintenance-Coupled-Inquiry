@@ -1,0 +1,45 @@
+{
+  "activation_manifest_present": false,
+  "confirmatory_design": {
+    "ablation_chunks": 72,
+    "ablation_source_rows": 432,
+    "bootstrap_replicates": 50000,
+    "bootstrap_seed": 941731,
+    "focal_n": 72,
+    "focal_seed_end": 30071,
+    "focal_seed_start": 30000,
+    "primary_chunks": 48,
+    "primary_replay_rows": 288,
+    "primary_source_rows": 576
+  },
+  "confirmatory_outcome_episodes_executed": 0,
+  "created_at_utc": "2026-08-04T12:08:02.522128+00:00",
+  "freeze_candidate_manifest": "manifests/freeze_candidate_file_manifest_v0_3.csv",
+  "freeze_candidate_manifest_sha256": "4cdc7c3f5e209eb193a83a3bae759df0f98a18571bd833ac1d5edaf6a1c7ae3f",
+  "note": "This manifest prepares but does not authorize confirmatory execution.",
+  "parameters": {
+    "active_sensing_width": 2,
+    "observation_budget": 600,
+    "primary_memory": "off",
+    "shift_observation": 28
+  },
+  "protocol_version": "v0.3",
+  "registry_sha256": {
+    "ablation_chunk_plan_v0_3.csv": "6d222cd536a66975f382dfd365b4ded7bf8abd09d5decc3b1f8287ee39a641be",
+    "condition_registry_v0_3.csv": "b35d5f2c50639b131497c7498b9b4caff44abcd40709d903ba1b882192ba707f",
+    "confirmatory_yoke_map_v0_3.csv": "9eb1b0bde01b55770650b3308e054ac3aa6fd7a519bca047191de534afd5117f",
+    "endpoint_implementation_registry_v0_3.csv": "7932e0f43aee88f64622f1e37d24a02b1061830fca9d6c15cb06df3eabccb66d",
+    "expected_key_grid_v0_3.json": "ed158201e2b1e54dfd1b47ebca7df44e00bd0fe887553edd65a77af90c54d41c",
+    "primary_chunk_plan_v0_3.csv": "f628581c9ef6f503a4fb980fd600cf0a5d728fe1e4b1fa7446a8a9f035c91665",
+    "seed_manifest_v0_3.csv": "893835f9bc13490c7ffbcc442b8c9ef67c5ec2831f6487a24d459445b0b90b7a",
+    "sesoi_verdict_registry_v0_3.csv": "af1c67604e5bd7e57c84a78599daf63b5a921c405634783c8f1744dbea1b8a08",
+    "world_generator_registry_v0_3.json": "f4f777e575ecd255ad96ec790adec6702afa842ada014a73284724f1b55c0415"
+  },
+  "required_before_execution": [
+    "freeze readiness audit PASS",
+    "no confirmatory outcome files present",
+    "explicit user approval after Phase U1.5 review",
+    "activation manifest anchored to this pre-run manifest and freeze hash"
+  ],
+  "status": "LOCKED_NOT_ACTIVATED"
+}

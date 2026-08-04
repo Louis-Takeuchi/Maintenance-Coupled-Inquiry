@@ -1,0 +1,11 @@
+condition,definition,role
+actual_need,Need aligned with focal damaged component,Primary
+yoked_need,Total need preserved; component alignment cyclically deranged,Primary control
+curiosity,No need; epistemic uncertainty and under-sampling,Secondary control
+no_need,No need; 50/50 broad-domain allocation,Difficulty control
+correlation_self_model,Causal self-model replaced by correlational model,Ablation
+no_null,Explicit no_bridge diagnosis removed,Ablation
+no_bridge_validation,Independent positive-bridge validation removed,Ablation
+no_null_no_validation,Null diagnosis and validation both removed,Ablation
+passive_only,Active intervention prohibited,Ablation
+pair_limited,Intervention programs limited to length <=2,Ablation

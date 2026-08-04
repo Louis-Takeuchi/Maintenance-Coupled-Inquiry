@@ -1,0 +1,16 @@
+version,role,world_or_mechanism,main_result,status_for_paper
+v0.1,Sanity baseline,Four-action Boolean micro-world,All conditions recovered easily; benchmark too easy,Exploratory only
+v0.2,Discriminative maintenance baseline,Five variables; multiple regimes; costly/noisy experiments,Maintenance preserved energy but did not improve discovery over curiosity,Exploratory held-out
+v0.3,Structural generation,Latent variable proposal and instrument construction,Generation enabled out-of-family recovery; sham nearly matched maintenance,Version-local frozen evaluation
+v0.4,Factorial separation,Four world classes; actual vs matched sham; evidence matching,Structural generation and persistence supported; no unique actual-need discovery effect,Version-local frozen evaluation
+v0.5,Self-relevance interaction,Two competing domains; self-relevant vs neutral,Actual need improved self-relevant diagnosis/repair relative to sham and curiosity,Narrow positive mechanism result
+v0.6,Causal self-boundary,Unlabeled internal variables; intervention vs correlation model,Causal boundary and actual-vs-yoked relevance effect supported; curiosity/oracle outperformed need,Mechanism exploration with held-out evaluation
+v0.7,Dual control,Need selects domain; epistemic value selects experiment,Dual actual matched curiosity and exceeded yoked; matched replay showed evidence-acquisition pathway,Strong precursor to paper-level primary test
+v0.8,Causal abstention,Explicit no_bridge; partial self-observation; active sensing,False repair sharply reduced but explicit null rarely accepted,Mechanism development
+v0.9,Reversible causal-null test,Temporary intervention plus matched internal sensing,Explicit scoped no_bridge reached 93% in neutral worlds; actual=yoked=curiosity ceiling,Version-local final confirmation
+v0.10,Composite intervention,Two-operation program discovery; validation; repair; replication,94% restoration; 0% neutral false repair; actual=yoked,Version-local final confirmation
+v0.11,Order-sensitive intervention grammar,Bounded beam search length 1-4,99% restoration and replication; actual=yoked; no cross-world memory,Best stable local-search mechanism baseline
+v0.12,Cross-world macro memory,Rank-coded transfer under scalar singleton alignment shortcut,99% persistent vs 61% reset; strong positive transfer within engineered alignment,Positive but shortcut-dependent
+v0.13,Relational memory without scalar shortcut,Directed pair alignment; 5/7 operations; decoy,Negative transfer: 87.5% memory vs 100% reset,Confirmed negative result
+v0.14,Confidence-gated relational memory,Posterior alignment; entropy/support gate; protected local beam,Safe by complete non-use: 100% but identical to sparse reset; memory tested 0%,Latest audited runtime; confirmed vacuous safety
+v0.15,Plan only,Applicability strata and calibrated non-vacuous memory,No implementation or results in supplied files,Future memory branch

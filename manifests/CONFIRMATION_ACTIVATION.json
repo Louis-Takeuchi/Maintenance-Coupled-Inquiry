@@ -1,0 +1,10 @@
+{
+  "approval_record": "User explicitly stated in Japanese: 確認したので進めてください",
+  "approval_token": "EXECUTE_PAPER_B_CONFIRMATION_V0_3",
+  "approved_at_utc": "2026-08-04T12:27:58.249980+00:00",
+  "freeze_candidate_manifest_sha256": "4cdc7c3f5e209eb193a83a3bae759df0f98a18571bd833ac1d5edaf6a1c7ae3f",
+  "pre_run_manifest_sha256": "3397e11e8b24ea443fbae4f5373d319f216dbe654ff35b5bf7f7a5e924e201ab",
+  "protocol_version": "v0.3",
+  "scope": "Execute frozen Paper B v0.3 primary confirmatory chunks first; do not adapt to intermediate outcomes.",
+  "status": "ACTIVATED_BY_EXPLICIT_USER_APPROVAL"
+}

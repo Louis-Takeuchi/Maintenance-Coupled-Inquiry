@@ -1,0 +1,3 @@
+relevance,runs,mapping_trust_mean,mapping_trust_max,alignment_entropy_mean,alignment_entropy_min,alignment_support_mean,memory_proposal_rate,memory_action_change_rate
+neutral,40,2.6404298716518525e-05,0.0001847763562823,0.9902916628294033,0.963317988046018,0.15145917084896898,0.0,0.0
+self_relevant,40,2.641358211508103e-05,0.0001847763562823,0.9901604145439762,0.963317988046018,0.15145928163446926,0.0,0.0

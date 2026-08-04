@@ -1,0 +1,17 @@
+check_id,status,detail
+REG-CONDITION,PASS,"rows=10, code_conditions=10"
+REG-ENDPOINT,PASS,"rows=7, code_endpoints=7"
+REG-WORLD,PASS,budget/shift/sensing/memory/seed range agree with code
+REG-YOKE,PASS,"rows=72, deterministic stratum-matched map, no outcome episodes"
+DESIGN-STRATA,PASS,"{'5|branch_comp|5|False|ring': 12, '6|context_comp|7|False|chain': 6, '5|branch_comp|5|False|dense': 12, '6|context_comp|7|True|ring': 6, '5|branch_comp|5|False|chain': 12, '6|context_comp|7|False|dense': 6, '6|context_comp|7|True|chain': 6, '6|context_comp|7|False|ring': 6, '6|context_comp|7|True|dense': 6}"
+REG-SEED,PASS,"development=40, sealed confirmatory=72, analysis RNG=1"
+PLAN-PRIMARY,PASS,"chunks=48, source_keys=576, replay_keys=288"
+PLAN-ABLATION,PASS,"chunks=72, source_keys=432"
+PLAN-EXPECTED-GRID,PASS,"{""ablation_chunks"": 72, ""ablation_source_rows"": 432, ""confirmatory_focal_n"": 72, ""primary_chunks"": 48, ""primary_replay_rows"": 288, ""primary_source_rows"": 576}"
+DEV-MERGE,PASS,"{'split': 'development', 'chunks': '32', 'run_rows': '320', 'duplicate_run_keys': '0', 'missing_expected_keys': '0', 'unexpected_keys': '0', 'condition_rows': '4', 'endpoint_rows': '7', 'yoke_rows': '40'}"
+DEV-ANALYSIS-50K,PASS,endpoint_rows=4
+DEV-EXACT-REPLAY,PASS,exact=48/48
+BLIND-NO-CONFIRM-OUTCOMES,PASS,none
+LOCK-ACTIVATION,PASS,activation manifest absent; wrapper remains locked
+FREEZE-HASH,PASS,freeze_manifest_sha256=73cfdded6db4504e123e5ef2ff7ec721fe58e919c471bd42cd27e26f17493a61
+TESTS,PASS,45 passed in 1.16s

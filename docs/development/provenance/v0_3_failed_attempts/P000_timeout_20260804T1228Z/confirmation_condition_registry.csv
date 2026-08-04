@@ -1,0 +1,3 @@
+condition_id,need_policy,self_model_policy,sensing_policy,memory_policy,allow_null,bridge_validation,passive_only,pair_limited,common_repair_decoder,primary,description
+actual_need,actual,causal,need_guided,off,True,True,False,False,True,True,Aligned internal need. Total need may affect self/neutral allocation; component-specific need prioritizes scarce active sensing. Within-domain experiment search and repair decoding are otherwise common.
+yoked_need,yoked,causal,need_guided,off,True,True,False,False,True,True,"A matched donor need trace is cyclically deranged across internal components. Per-step total need and donor component time series are retained, while component-to-focal-self alignment is broken."

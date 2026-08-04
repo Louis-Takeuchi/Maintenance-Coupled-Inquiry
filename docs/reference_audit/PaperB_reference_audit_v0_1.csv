@@ -1,0 +1,13 @@
+author,year,title,venue,volume_issue,pages,doi,status,manuscript_action,verification_source
+Barandiaran et al.,2009,"Defining agency: Individuality, normativity, asymmetry, and spatio-temporality in action",Adaptive Behavior,17(5),367-386,10.1177/1059712309343819,verified,Retained; cited in Introduction and Discussion,SAGE journal page
+Barto et al.,2013,Novelty or surprise?,Frontiers in Psychology,4,907,10.3389/fpsyg.2013.00907,verified,Added for intrinsic-motivation context,Frontiers article page
+Di Paolo,2005,"Autopoiesis, adaptivity, teleology, agency",Phenomenology and the Cognitive Sciences,4,429-452,10.1007/s11097-005-9002-y,verified,Retained; DOI and issue details added,Springer article page
+Friston,2010,The free-energy principle: A unified brain theory?,Nature Reviews Neuroscience,11,127-138,10.1038/nrn2787,verified,Added as related regulatory framework; not treated as the implemented model,Nature article page
+Froese et al.,2007,Autonomy: A review and a reappraisal,Advances in Artificial Life: ECAL 2007,LNCS 4648,455-464,10.1007/978-3-540-74913-4_46,verified,Retained and cited,Springer chapter page
+Harnad,1990,The symbol grounding problem,Physica D,42(1-3),335-346,10.1016/0167-2789(90)90087-6,verified,Removed from main manuscript because it was not substantively cited,ScienceDirect article page
+Keramati & Gutkin,2014,Homeostatic reinforcement learning for integrating reward collection and physiological stability,eLife,3,e04811,10.7554/eLife.04811,verified,Added to distinguish maintenance-sensitive reward from evidence allocation,eLife article page
+Maturana & Varela,1980,Autopoiesis and cognition: The realization of the living,D. Reidel / Springer,Book,1-146,10.1007/978-94-009-8947-4,verified,Retained; DOI added,Springer book page
+Moreno & Mossio,2015,Biological autonomy: A philosophical and theoretical enquiry,Springer,Book,1-221,10.1007/978-94-017-9837-2,verified,Retained; DOI added,Springer book page
+O'Regan & Noë,2001,A sensorimotor account of vision and visual consciousness,Behavioral and Brain Sciences,24(5),939-973,10.1017/S0140525X01000115,verified,Retained and connected to active sensing; page range corrected,Cambridge Core article page
+Oudeyer et al.,2007,Intrinsic motivation systems for autonomous mental development,IEEE Transactions on Evolutionary Computation,11(2),265-286,10.1109/TEVC.2006.890271,verified,Added for curiosity and epistemic exploration,IEEE/DBLP metadata
+Pearl,2009,"Causality: Models, reasoning, and inference (2nd ed.)",Cambridge University Press,Book,,,verified,Retained and cited for observation-intervention distinction,Cambridge University Press bibliographic record

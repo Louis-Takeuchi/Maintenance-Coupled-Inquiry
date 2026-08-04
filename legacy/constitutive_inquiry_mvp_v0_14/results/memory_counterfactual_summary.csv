@@ -1,0 +1,3 @@
+comparison,restoration_a,restoration_b,mean_sequences_a,mean_sequences_b,interpretation
+principal_vs_full_reset,1.0,0.975,45.125,57.275,combines sparse calibration and memory gating
+principal_vs_sparse_reset,1.0,1.0,45.125,45.125,isolates memory contribution under matched sparse calibration
