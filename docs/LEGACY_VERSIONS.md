@@ -22,6 +22,10 @@ but v0.14 did not generate the paper's final confirmatory results.
 The canonical paper implementation is the frozen v0.3 source in `src/`, with
 the protocol and manifests in `protocol/` and `manifests/`.
 
+The v0.14 `SHA256SUMS.txt` predates cache cleanup and still lists 15 excluded
+cache/bytecode files. Run `python scripts/verify_legacy_present_files.py` to
+verify all 73 present listed files without recreating caches.
+
 ## Use caution
 
 - Do not import the legacy package into the main v0.3 test environment.
@@ -29,4 +33,3 @@ the protocol and manifests in `protocol/` and `manifests/`.
 - Do not replace v0.3 manifests, outputs, or dependencies with v0.14 files.
 - Treat legacy results as historical evidence about development, not as
   confirmatory observations.
-

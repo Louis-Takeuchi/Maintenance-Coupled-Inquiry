@@ -123,11 +123,13 @@ shasum -a 256 -c PaperB_public_release_all_in_one_2026-08-05_v1_0.zip.sha256
 ```
 
 After extracting that asset, run `shasum -a 256 -c SHA256SUMS.txt` at its
-release root. For the expanded v0.14 baseline in this repository:
+release root. The expanded v0.14 baseline contains a stale historical
+`SHA256SUMS.txt` with 15 references to caches and bytecode that were correctly
+excluded from publication. Do not recreate those caches merely to satisfy the
+stale entries. Verify the 73 present files with:
 
 ```bash
-cd legacy/constitutive_inquiry_mvp_v0_14
-shasum -a 256 -c SHA256SUMS.txt
+python scripts/verify_legacy_present_files.py
 ```
 
 The GitHub-oriented tree changes paths, so the all-in-one package's root
@@ -143,6 +145,7 @@ recorded in `RELEASE_NOTES_v1.0.0.md` for archives.
 - Author, DOI, and license metadata remain unresolved.
 - Receipt output paths and archived post-run scripts retain the original
   container path as provenance.
+- The historical v0.14 checksum list contains 15 stale cache/bytecode entries;
+  all 73 present listed files verify, and no caches are republished.
 - The repository does not establish constitutive autonomy or endogenous
   normativity.
-

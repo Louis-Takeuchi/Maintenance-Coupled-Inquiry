@@ -27,10 +27,12 @@
   replicates.
 - Reproduced/frozen table comparison: 8 + 8 + 8 + 6 + 29 rows matched exactly.
 - Relative Markdown link check: 44 links passed at the time of the audit.
+- Historical v0.14 manifest: all 73 present listed files matched; 15 stale
+  entries referred only to excluded `.pytest_cache`, `__pycache__`, and `.pyc`
+  files. The stale manifest was preserved rather than normalized.
 
 ## Deliberate non-scientific additions
 
 New English/Japanese README files, claim-boundary documents, portability
 helpers, release metadata, license-status notices, security audit, and CI are
 publication-layer additions. They do not replace the frozen artifacts.
-

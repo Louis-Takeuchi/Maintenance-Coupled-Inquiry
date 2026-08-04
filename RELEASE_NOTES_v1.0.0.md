@@ -59,6 +59,7 @@ author, and citation fields in `PUBLICATION_OPEN_FIELDS.md` are resolved.
 
 `CITATION.cff` is an incomplete draft because author identity, ORCID, DOI, and
 license fields are unresolved. Figure-generation source and full step-level
-traces are also unavailable. See `docs/KNOWN_LIMITATIONS.md` and
+traces are also unavailable. The preserved v0.14 checksum list includes 15
+stale cache/bytecode entries; all 73 present listed files verify with the public
+helper. See `docs/KNOWN_LIMITATIONS.md` and
 `docs/REPRODUCIBILITY.md`.
-
