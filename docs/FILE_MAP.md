@@ -4,8 +4,9 @@
 |---|---|---|
 | `README.md`, `README_ja.md` | Public orientation and claim boundary | New public documents; values checked against frozen CSVs |
 | `manuscript/PaperB_AdaptiveBehavior_manuscript_v0_1.md` | Public-link manuscript canonical copy | Source Markdown copied; only Code/Data Availability URLs updated |
-| `manuscript/*.docx` | Manuscript DOCX snapshot | Byte-preserved source snapshot; regenerate after Markdown approval |
-| `supplement/*.md`, `supplement/*.docx` | Supplementary materials | Byte-preserved source snapshots |
+| `manuscript/*.docx` | Manuscript DOCX | Availability text synchronized from the Markdown canonical copy; scientific body preserved |
+| `PaperB_日本語版_自然表現改訂稿_v0_4.docx` | Japanese manuscript DOCX | Availability text synchronized; scientific body preserved |
+| `supplement/*.md`, `supplement/*.docx` | Supplementary materials | Byte-preserved source snapshots; no Availability update required |
 | `manuscript/tables/` | Paper tables | Byte-preserved generated CSVs |
 | `figures/` | Released figures | Byte-preserved PDF/PNG; generation script unavailable |
 | `protocol/` | Frozen protocol and freeze evidence | Byte-preserved source artifacts |
@@ -20,11 +21,11 @@
 | `data/execution_receipts/` | Chunk execution provenance | Byte-preserved 120 receipts |
 | `docs/development/` | Development and audit history | Selected byte-preserved reports and provenance |
 | `legacy/constitutive_inquiry_mvp_v0_14/` | Historical baseline | Byte-preserved expanded v0.14 package |
-| all-in-one and core ZIPs | Versioned reproducibility archives | Release assets; not part of Git tree |
+| all-in-one ZIP | Versioned reproducibility archive | Release asset; not part of Git tree |
+| core ZIP | Not included | Not recreated, to preserve verified archive byte identity |
 | cleaned v0.1–v0.14 ZIP | Development archive | Release asset; not part of Git tree |
 | full step-level traces | Raw execution detail | Not included; must be regenerated and separately validated |
 
 The all-in-one package's `MANIFEST.csv` and `SHA256SUMS.txt` describe the
 original package layout, not this reorganized Git tree. They remain with the
 Release asset and must not be rewritten to imply otherwise.
-
