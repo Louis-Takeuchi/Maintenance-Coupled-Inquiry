@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "Citation metadata is incomplete; consult PUBLICATION_OPEN_FIELDS.md before citing."
-title: "Maintenance-Coupled Inquiry Experiment: Reproducibility Package"
+message: "If you use this repository, please cite it using this metadata."
+title: "Maintenance-Coupled Inquiry Control Directs Damage-Relevant Evidence Acquisition and Improves Causal Repair in Artificial Agents"
 type: software
+authors:
+  - family-names: "竹内"
+    given-names: "琉瑛"
 version: 1.0.0
 date-released: 2026-08-05
 repository-code: "https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry"
 url: "https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry"
-preferred-citation:
-  type: article
-  title: "Maintenance-Coupled Inquiry Control Directs Damage-Relevant Evidence Acquisition and Improves Causal Repair in Artificial Agents"
-
+license: Apache-2.0

@@ -1,8 +1,8 @@
 # Maintenance-Coupled Inquiry – Public Reproducibility Release v1.0.0
 
-**Tag candidate:** `v1.0.0`  
-**Release date candidate:** 2026-08-05  
-**Publication state:** Draft; do not publish until author and license fields are resolved
+**Tag:** `v1.0.0`  
+**Release date:** 2026-08-05  
+**Publication state:** Public reproducibility release
 
 ## Purpose
 
@@ -42,24 +42,21 @@ individuality, or a general autonomous scientist.
 
 ## Release asset status and SHA-256
 
-| Candidate asset | Local status | SHA-256 |
+| Asset | Status | SHA-256 |
 |---|---|---|
 | `PaperB_public_release_all_in_one_2026-08-05_v1_0.zip` | Present and verified | `98be5f2380a74548d3b0cb50e02e28f92b300f46312321973ea9c54d04a00704` |
 | corresponding `.sha256` | Present | checksum above |
-| `PaperB_public_release_core_2026-08-05_v1_0.zip` | Not found; do not create a substitute | — |
-| corresponding core `.sha256` | Not found | — |
 | `PaperB_legacy_mvp_versions_v0_1_to_v0_14_clean_2026-08-05.zip` | Present and verified | `0d7c4cdcdaa9ecc40ce4d22e141b5622050d996ac2c4a83b3b7cab9f4226b1b2` |
 | corresponding legacy `.sha256` | Present | checksum above |
 
-Before publishing, display and recheck the exact tag commit, all uploaded asset
-hashes, and the downloaded assets. Do not publish a Release until the license,
-author, and citation fields in `PUBLICATION_OPEN_FIELDS.md` are resolved.
+A separate core ZIP is not included. It was not recreated because doing so
+would break the byte identity of the previously verified archives.
 
 ## Citation and limitations
 
-`CITATION.cff` is an incomplete draft because author identity, ORCID, DOI, and
-license fields are unresolved. Figure-generation source and full step-level
-traces are also unavailable. The preserved v0.14 checksum list includes 15
-stale cache/bytecode entries; all 73 present listed files verify with the public
-helper. See `docs/KNOWN_LIMITATIONS.md` and
-`docs/REPRODUCIBILITY.md`.
+`CITATION.cff` contains the author in confirmed Unicode form, the repository
+URL, version, release date, and Apache-2.0 code license. ORCID, affiliation, and
+DOIs are not yet assigned. Figure-generation source and full step-level traces
+are also unavailable. The preserved v0.14 checksum list includes 15 stale
+cache/bytecode entries; all 73 present listed files verify with the public
+helper. See `docs/KNOWN_LIMITATIONS.md` and `docs/REPRODUCIBILITY.md`.

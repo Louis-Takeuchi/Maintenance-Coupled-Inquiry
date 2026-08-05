@@ -142,7 +142,8 @@ recorded in `RELEASE_NOTES_v1.0.0.md` for archives.
 - Full step-level traces are not in the validated package or Git history.
 - The earlier full-trace ZIP failed central-directory integrity and was excluded.
 - Figure-generation source is unavailable.
-- Author, DOI, and license metadata remain unresolved.
+- ORCID, affiliation, article DOI, archive DOI, and submission metadata remain
+  open; licenses and the minimum citation record are finalized.
 - Receipt output paths and archived post-run scripts retain the original
   container path as provenance.
 - The historical v0.14 checksum list contains 15 stale cache/bytecode entries;

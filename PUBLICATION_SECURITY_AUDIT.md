@@ -41,9 +41,12 @@ provenance. Portable public analysis uses separate helper scripts and writes to
 
 ## Binary artifacts
 
-DOCX, PDF, and PNG files were copied byte-for-byte from the source package. The
-source package's own packaging report recorded zero credential/private-key
-pattern hits, zero caches, zero `.env` files, and zero `.DS_Store` files.
+PDF and PNG files were copied byte-for-byte from the source package. The
+English and Japanese manuscript DOCX files received Availability-only text
+updates documented in `docs/DOCX_REGENERATION.md`; the supplementary DOCX was
+preserved byte-for-byte. The source package's own packaging report recorded
+zero credential/private-key pattern hits, zero caches, zero `.env` files, and
+zero `.DS_Store` files.
 
 ## Git commit identity
 
@@ -54,6 +57,6 @@ public GitHub handle `Louis-Takeuchi` and GitHub noreply address
 
 ## Publication decision
 
-The secret scan does not require a STOP. Publication is still blocked on human
-confirmation of author metadata and licenses, as listed in
-`PUBLICATION_OPEN_FIELDS.md`.
+The secret scan does not require a STOP. Licenses and the minimum citation
+record are finalized. Remaining author and article metadata listed in
+`PUBLICATION_OPEN_FIELDS.md` does not block the public reproducibility release.

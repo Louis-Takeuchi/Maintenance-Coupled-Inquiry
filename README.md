@@ -1,12 +1,17 @@
 # Maintenance-Coupled Inquiry
 
+[![tests](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/actions/workflows/tests.yml/badge.svg)](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/actions/workflows/tests.yml)
+[![release](https://img.shields.io/github/v/release/Louis-Takeuchi/Maintenance-Coupled-Inquiry?label=release)](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/releases/tag/v1.0.0)
+[![code license](https://img.shields.io/badge/code%20license-Apache--2.0-blue.svg)](LICENSE)
+[![data%20%26%20docs license](https://img.shields.io/badge/data%20%26%20docs-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
+
 A preregistered computational experiment testing whether component-aligned maintenance signals alter evidence allocation, causal diagnosis, and replicated restoration under finite inquiry budgets.
 
-**Repository status:** Public-release candidate  
+**Repository status:** Public reproducibility release  
 **Version:** 1.0.0  
 **Paper status:** Manuscript prepared; not yet published  
-**License status:** Not yet selected; no open license is currently granted  
-**Latest release:** [Planned versioned release](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/releases/latest)  
+**License status:** Code Apache-2.0; data, manuscript, documentation, and figures CC BY 4.0  
+**Latest release:** [v1.0.0](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/releases/tag/v1.0.0)  
 **日本語:** [README_ja.md](README_ja.md)
 
 ## Scope and claim boundary
@@ -122,9 +127,10 @@ chunk, seed, and yoke manifests. Do not edit those manifests. Review
 ## Data availability
 
 Git tracks the merged primary and ablation run summaries, endpoint tables,
-analysis outputs, integrity audits, and execution receipts. Versioned Release
-assets are planned for the all-in-one package, core package, and cleaned legacy
-archive.
+analysis outputs, integrity audits, and execution receipts. The v1.0.0 Release
+provides the verified all-in-one package and cleaned legacy archive together
+with their checksum files. A separate core ZIP is not included and must not be
+reconstructed from unverified assumptions.
 
 Full step-level traces are **not** included in the main Git history or current
 validated package. A previous full-trace ZIP failed archive-integrity checking
@@ -139,17 +145,16 @@ generate the final confirmatory results and must not be treated as the canonical
 implementation of the paper.
 
 Versions v0.1–v0.13 are development provenance, not the main implementation.
-Their cleaned archive is planned as a Release asset rather than part of the main
-tree. See [LEGACY_VERSIONS.md](docs/LEGACY_VERSIONS.md).
+Their cleaned archive is a Release asset rather than part of the main tree. See
+[LEGACY_VERSIONS.md](docs/LEGACY_VERSIONS.md).
 
 ## Citation
 
 See [`CITATION.cff`](CITATION.cff) and the manuscript title in
 [`manuscript/`](manuscript/). The paper is unpublished, and no journal volume,
-issue, pages, article DOI, or archive DOI has been assigned here. Author and
-license fields remain unresolved in
-[`PUBLICATION_OPEN_FIELDS.md`](PUBLICATION_OPEN_FIELDS.md); complete them before
-publishing the release.
+issue, pages, article DOI, or archive DOI has been assigned here. ORCID,
+affiliation, DOI, and submission metadata remain future additions documented in
+[`PUBLICATION_OPEN_FIELDS.md`](PUBLICATION_OPEN_FIELDS.md).
 
 ## AI assistance disclosure
 
@@ -161,14 +166,11 @@ decisions or ran the confirmatory experiment without human oversight.
 
 ## License
 
-No open licenses are active yet.
+| Material | License |
+|---|---|
+| Code (`src/`, `scripts/`, `tests/`, Python configuration, CI) | [Apache License 2.0](LICENSE) |
+| Data, manifests, CSV outputs, and execution receipts | [CC BY 4.0](LICENSE-DATA) |
+| Manuscript, supplement, documentation, figures, README, and protocol documents | [CC BY 4.0](LICENSE-DOCS) |
 
-| Material | Current status | Candidate decision |
-|---|---|---|
-| Code | No license granted | MIT or Apache-2.0 |
-| Data | No license granted | CC0 1.0 or CC BY 4.0 |
-| Manuscript, docs, figures | No license granted | CC BY 4.0 |
-
-Do not infer permission from public visibility. See `LICENSE`, `LICENSE-DATA`,
-`LICENSE-DOCS`, and `PUBLICATION_OPEN_FIELDS.md`.
-
+Third-party materials remain subject to their own rights and licenses. See
+[`NOTICE.md`](NOTICE.md) for the scope statement.

@@ -6,13 +6,16 @@
 ## Source preservation
 
 - 315 copied scientific and provenance files were compared with their source
-  package counterparts by SHA-256 and matched exactly.
+  package counterparts by SHA-256 and matched exactly before the instructed
+  publication-layer Availability synchronization.
 - The comparison covered frozen source, tests, manifests, scripts, protocol,
-  figures, manuscript tables and DOCX, supplementary files, merged primary and
+  figures, manuscript tables and the original DOCX, supplementary files, merged primary and
   ablation data, final analysis outputs, receipts, development provenance, and
   the expanded v0.14 baseline.
 - The manuscript Markdown differs from its source only in the two instructed
   Data Availability and Code Availability paragraphs.
+- The English and Japanese manuscript DOCX files differ only in the instructed
+  Availability paragraphs; the supplementary DOCX remains byte-identical.
 - Confirmatory values, endpoints, SESOIs, decision rules, seed manifest, yoke
   map, protocol, merged data, receipts, and frozen source behavior were not
   modified.

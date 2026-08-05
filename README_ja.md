@@ -1,12 +1,17 @@
 # Maintenance-Coupled Inquiry（維持結合型探究）
 
+[![tests](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/actions/workflows/tests.yml/badge.svg)](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/actions/workflows/tests.yml)
+[![release](https://img.shields.io/github/v/release/Louis-Takeuchi/Maintenance-Coupled-Inquiry?label=release)](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/releases/tag/v1.0.0)
+[![code license](https://img.shields.io/badge/code%20license-Apache--2.0-blue.svg)](LICENSE)
+[![data%20%26%20docs license](https://img.shields.io/badge/data%20%26%20docs-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
+
 構成要素に整列した維持信号が、有限の探究予算下で証拠配分、因果診断、再現確認付き回復を変えるかを検証した、事前登録型の計算実験です。
 
-**リポジトリ状態:** 公開候補版  
+**リポジトリ状態:** 公開再現パッケージ  
 **バージョン:** 1.0.0  
 **論文状態:** 原稿作成済み・未出版  
-**ライセンス状態:** 未決定（現時点ではオープンライセンスの許諾なし）  
-**最新リリース:** [公開予定のversioned release](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/releases/latest)  
+**ライセンス状態:** CodeはApache-2.0、data・原稿・文書・図はCC BY 4.0  
+**最新リリース:** [v1.0.0](https://github.com/Louis-Takeuchi/Maintenance-Coupled-Inquiry/releases/tag/v1.0.0)  
 **English:** [README.md](README.md)
 
 ## 対象範囲と主張境界
@@ -96,7 +101,7 @@ python scripts/compare_reproduced_analysis.py build/reproduced-analysis
 
 ## データ公開範囲
 
-Gitでは、merged primary/ablation run summaries、endpoint表、解析出力、integrity audit、execution receiptを管理します。all-in-one package、core package、cleaned legacy archiveはversioned Release assetとして扱う計画です。
+Gitでは、merged primary/ablation run summaries、endpoint表、解析出力、integrity audit、execution receiptを管理します。v1.0.0 Releaseには検証済みall-in-one package、cleaned legacy archive、および各checksum fileを収録します。別個のcore ZIPは含めず、未検証の推測から再構成しません。
 
 完全なstep-level traceは、main Git historyにも現在の検証済みpackageにも含まれていません。以前のfull-trace ZIPはarchive integrity検証に失敗したため除外されました。trace再生成に必要な凍結codeとmanifestは提供していますが、「すべてのraw step traceを公開済み」と主張するには、新しい検証済みdepositが必要です。
 
@@ -104,11 +109,11 @@ Gitでは、merged primary/ablation run summaries、endpoint表、解析出力�
 
 v0.14は、統一前のhistorical baselineとして保存されています。最終確認結果を生成した実装ではなく、論文のcanonical implementationとして扱ってはいけません。
 
-v0.1–v0.13はmain implementationではなくdevelopment provenanceです。cleaned archiveはmain treeではなくRelease assetにする計画です。詳細は[LEGACY_VERSIONS.md](docs/LEGACY_VERSIONS.md)を参照してください。
+v0.1–v0.13はmain implementationではなくdevelopment provenanceです。cleaned archiveはmain treeではなくRelease assetです。詳細は[LEGACY_VERSIONS.md](docs/LEGACY_VERSIONS.md)を参照してください。
 
 ## 引用
 
-[`CITATION.cff`](CITATION.cff)と[`manuscript/`](manuscript/)の論文titleを参照してください。論文は未出版であり、journal volume、issue、page、article DOI、archive DOIは確定していません。著者・ライセンス項目も[`PUBLICATION_OPEN_FIELDS.md`](PUBLICATION_OPEN_FIELDS.md)に残っています。release公開前に確定とvalidationが必要です。
+[`CITATION.cff`](CITATION.cff)と[`manuscript/`](manuscript/)の論文titleを参照してください。論文は未出版であり、journal volume、issue、page、article DOI、archive DOIは確定していません。ORCID、所属、DOI、投稿情報は将来追加するmetadataとして[`PUBLICATION_OPEN_FIELDS.md`](PUBLICATION_OPEN_FIELDS.md)に記録しています。
 
 ## AI assistance disclosure
 
@@ -116,13 +121,10 @@ OpenAI ChatGPTは英訳、構造編集、文書整形を補助しました。著
 
 ## ライセンス
 
-現在、有効なオープンライセンスはありません。
+| 対象 | ライセンス |
+|---|---|
+| Code（`src/`、`scripts/`、`tests/`、Python設定、CI） | [Apache License 2.0](LICENSE) |
+| Data、manifest、CSV出力、execution receipt | [CC BY 4.0](LICENSE-DATA) |
+| 原稿、supplement、文書、図、README、protocol文書 | [CC BY 4.0](LICENSE-DOCS) |
 
-| 対象 | 現在の状態 | 検討候補 |
-|---|---|---|
-| Code | ライセンス許諾なし | MITまたはApache-2.0 |
-| Data | ライセンス許諾なし | CC0 1.0またはCC BY 4.0 |
-| Manuscript・docs・figures | ライセンス許諾なし | CC BY 4.0 |
-
-公開されていること自体から利用許諾を推定しないでください。`LICENSE`、`LICENSE-DATA`、`LICENSE-DOCS`、`PUBLICATION_OPEN_FIELDS.md`を参照してください。
-
+第三者資料には各権利者・各ライセンスの条件が適用されます。適用範囲は[`NOTICE.md`](NOTICE.md)を参照してください。
